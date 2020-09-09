@@ -1,0 +1,191 @@
+.basket-excel {
+    min-width: auto;
+    color: #0057b8;
+    background: transparent;
+    transition: 0.2s;
+}
+
+.basket-excel__wrapper .alert-msg {
+    min-width: 300px;
+}
+
+.lk-btn--content {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.basket-excel {
+    fill: #0057b8;
+}
+
+.order__btn-nav-ico {
+    width: 20px;
+    height: 13px;
+    margin-left: 5px;
+}
+.ico-btn {
+    flex-shrink: 0;
+}
+
+.alert-msg--info {
+    display: none;
+    margin-top: 10px;
+    padding: 9px;
+    color: white;
+    background: #33c3ce;
+    box-shadow: 0 4px 12.22px 0.78px rgba(204, 203, 204, 0.4);
+}
+
+.alert-msg__title {
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.alert-msg__title span {
+    display: block
+}
+
+.alert-btn {
+    min-width: auto;
+    margin: 0 5px;
+}
+
+.alert-btn--close {
+    background: white;
+    color: #848484;
+    border-color: #848484;
+}
+
+.alert-btn--close:hover {
+    background: #848484;
+    color: white;
+    border-color: #848484;
+}
+
+.alert-bl-fl {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.alert-bl-fl--last button {
+    color: white;
+    width: 100%;
+}
+
+.alert-msg__buttons {
+    display: flex;
+    align-items: center;
+}
+
+.alert-msg__btn {
+    min-width: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    text-transform: none;
+    line-height: 1;
+    height: auto;
+    margin: 0 0 0 10px !important;
+    color: white;
+    text-decoration: none;
+}
+.alert-msg__btn:hover {
+    background: transparent; 
+    color: white;
+}
+
+.alert-msg__text {
+    margin: 0;
+}
+
+.alert-msg__wrapper {
+    position: relative;
+    display: flex;
+}
+
+.alert-msg--info {
+    position: relative;
+}
+
+.alert-msg--info.active {
+    display: flex;
+    flex-direction: column;
+}
+
+.msg-error--ab {
+    color: red;
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.file-label {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.file-btn {
+    background: #0058b8;
+    text-transform: uppercase;
+    padding: 2px 12px;
+    color: white;
+    border: 1px solid #0057b8;
+    cursor: pointer;
+}
+
+.file-btn:hover {
+    background: transparent;
+    color: #0057b8;
+}
+
+.file-name {
+    text-align: center;
+    font-style: italic;
+    color: #0058b8;
+    width: 50%;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.go-to-basket {
+    position: absolute;
+    top: -34px;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    background: #0058b8;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.active-load {
+    padding-bottom: 45px !important;
+}
+
+.active-load .alert-bl-fl--last {
+    display: none;
+}
+
+.active-load .go-to-basket {
+    bottom: -34px;
+    top: auto;
+}

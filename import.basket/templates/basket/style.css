@@ -1,0 +1,214 @@
+.basket-excel {
+    min-width: auto;
+    color: #0057b8;
+    background: transparent;
+    transition: 0.2s;
+}
+
+.basket-excel__wrapper .alert-msg {
+    min-width: 300px;
+}
+
+.lk-btn--content {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.basket-excel {
+    fill: #0057b8;
+}
+
+.order__btn-nav-ico {
+    width: 20px;
+    height: 13px;
+    margin-left: 5px;
+}
+.ico-btn {
+    flex-shrink: 0;
+}
+
+.alert-msg {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -10px;
+    padding: 9px;
+    color: white;
+    background: #33c3ce;
+    box-shadow: 0 4px 12.22px 0.78px rgba(204, 203, 204, 0.4);
+    transform: translateY(-100%);
+}
+
+.alert-msg__title {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.alert-msg__title a {
+    color: white;
+}
+
+.alert-msg__title span {
+    display: block
+}
+
+.alert-msg__title span:first-child {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.alert-btn {
+    width: calc(50% - 3px);
+    min-width: auto;
+    background: white;
+    color: #33c3ce;
+    border-color: white;
+}
+
+.alert-btn--full {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.alert-btn:hover {
+    background: #0057b8;
+    color: white;
+    border-color: #0057b8;  
+}
+
+.alert-btn--close {
+    background: #33c3ce;
+    color: white;
+    border-color: white;
+}
+
+.alert-btn--close:hover {
+    background: white;
+    color: #33c3ce;
+    border-color: white;
+}
+
+.alert-bl-fl {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.alert-bl-fl--last {
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.alert-msg__buttons {
+    display: flex;
+    align-items: center;
+}
+
+.alert-msg__btn {
+    min-width: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    text-transform: none;
+    line-height: 1;
+    height: auto;
+    margin: 0 0 0 10px !important;
+    color: white;
+    text-decoration: none;
+}
+.alert-msg__btn:hover {
+    background: transparent; 
+    color: white;
+}
+
+.alert-msg__text {
+    margin: 0;
+}
+
+.alert-msg__wrapper {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.alert-msg__wrapper.active .alert-msg,
+.alert-msg--info.active {
+    display: flex;
+    flex-direction: column;
+}
+
+.msg-error--ab {
+    color: red;
+    position: absolute;
+    right: 245px;
+    top: 3px;
+}
+
+.close-info, .close-info-style {
+    background: transparent;
+    border: none;
+    min-width: auto;
+    fill: white;
+    position: absolute;
+    right: 0;
+    top: 7px;
+}
+
+.close-info .close-btn, .close-info-style .close-btn {
+    fill: white;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.file-label {
+    margin: 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.file-btn {
+    background: white;
+    text-transform: uppercase;
+    padding: 2px 12px;
+    color: #33c3ce;
+    border: 1px solid white;
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+}
+
+.file-btn:hover {
+    background: transparent;
+    color: white;
+}
+
+.file-name {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    width: 50%;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.basket-excel__wrapper .frm-select label:after {
+    background: #ffffff;
+}
+
+.basket-excel__wrapper .frm-select label:before {
+    background: transparent;
+    border-color: white;
+}
