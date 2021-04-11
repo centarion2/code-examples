@@ -52,3 +52,39 @@ $APPLICATION->IncludeComponent(
 false
 );?> 
 ```
+
+4 Бонусная программа
+
+Содержит три компонента для вывода бонусной программы на странице личного кабинета 
+пользователя, обработчик аякс запросов от них /ajax/bp.php, а также менеджер
+бонусной программы /lib/vmgr/bonusprogram/bonusprogrammanager.php, управляющий всем
+механизмом и содержащий все необходимые функции для ее функционирования. 
+В проекте используется RESTful API к серверу "Карта подарков" для покупки сертификатов 
+и виджет для оплаты сертификатов. Скриншоты прилагаются.
+
+```
+<? // Блоки по бонусам
+$APPLICATION->IncludeComponent(
+    "vmgr:bonus.invoices.list",
+    "",
+    Array(
+        "PATH_TO_CATALOG" => '/personal/bonus/giftcards/',
+    )
+);?>
+
+<? // Блок "Ваши подарки"
+$APPLICATION->IncludeComponent(
+    "vmgr:bonus.giftcards.bought",
+    "",
+    Array(
+    )
+);?>
+
+<? // Страница "Каталог подарков"
+$APPLICATION->IncludeComponent(
+    "vmgr:bonus.giftcards.list",
+    "",
+    Array(
+    )
+);?>
+```
